@@ -97,6 +97,8 @@ textarea {
 
   .content-wrapper {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
     max-width: 100%;
     padding: 20px;
   }
@@ -104,17 +106,21 @@ textarea {
   h1 {
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit';
+    text-align: center;
   }
 
   p {
     background-color: hsl(0, 0%, 100%);
+    color: gray;
     font-family: 'Outfit';
+    text-align: center;
   }
 
   .qr-image {
     background-color: hsl(0, 0%, 100%);
-    padding: 45px;
-    width: 75%;
+    border-radius: 20px;
+    padding: 0px;
+    width: 100%;
   }
 
 /* ==========================================================================
